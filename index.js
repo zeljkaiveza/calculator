@@ -31,8 +31,6 @@ numberButtons.forEach(e => e.addEventListener("click", ()=>{
         changeToNewNumber = true
     }
 }))
-
-
 operationButtons.forEach(e => e.addEventListener("click", ()=>{
     if(clickedNumber === true && currentOperand.innerText !== "Error"){
         operands.push(Number(currentOperand.innerText))
