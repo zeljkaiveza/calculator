@@ -68,3 +68,23 @@ button:hover{
 .span-two{
     width: 202px;
 }
+@media screen and (max-width: 500px){
+    main{
+        width: 200px;
+    }
+    .row button{
+        font-size: 1rem;
+    }
+    .display{
+        min-height: 80px;
+    }
+    .previousOperand{
+        font-size: 1rem;
+    }
+    .currentOperand{
+        font-size: 1.5rem;
+    }
+    .span-two{
+        width: 104px;
+    }
+}
