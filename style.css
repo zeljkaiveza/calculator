@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to right, #00AAFF,  #00FF6c);
+}
+main{
+    background-color: white;
+    width: 400px;
+}
+.display{
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 10px;
+    min-height: 100px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.previousOperand{
+    font-size: 1.5rem;
+    text-align: end;
+    color: rgba(255, 255, 255, 0.75);
+}
+.currentOperand{
+    font-size: 2rem;
+    text-align: end;
+    color: white;
+}
+main{
+    background-color: white;
+}
+.row button{
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 1px 1px;
+    background-color: rgba(162, 223, 228, 0.75);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(162, 223, 228, 0.3);
+}
+.rowFirst{
+    display: flex;
+    width: 100%;    
+}
+.rowMiddle{
+    display: flex;
+}
+.rowMiddle *{
+    width: 25%;
+}
+.rowLast {
+    display: flex;
+}
+.span-one{
+    width: 25%;
+}
+.span-two{
+    width: 202px;
+}
