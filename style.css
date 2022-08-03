@@ -40,9 +40,8 @@ main{
     font-size: 2rem;
     text-align: center;
     padding: 10px 0px;
-    margin: 1px 1px;
+    border: 0.1px solid white;
     background-color: rgba(162, 223, 228, 0.75);
-    border: none;
     outline: none;
     cursor: pointer;
 }
@@ -66,11 +65,11 @@ button:hover{
     width: 25%;
 }
 .span-two{
-    width: 202px;
+    width: 50%;
 }
 @media screen and (max-width: 500px){
     main{
-        width: 200px;
+        width: 250px;
     }
     .row button{
         font-size: 1rem;
@@ -85,6 +84,12 @@ button:hover{
         font-size: 1.5rem;
     }
     .span-two{
-        width: 104px;
+        width: 50%;
     }
+    .row button{
+        margin: 0;
+        border: 0.1px solid white;
+        color: black;
+    }
+    
 }
